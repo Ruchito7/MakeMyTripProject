@@ -547,3 +547,6 @@
 2025-02-10 22:29:14,025 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\test\resources
 2025-02-10 22:29:30,922 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\main\resources
 2025-02-10 22:29:30,927 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\test\resources
+2025-02-10 22:31:08,026 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.MakeMyTrip:MakeMyTrip:0.0.1-SNAPSHOT @ C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\pom.xml.
+2025-02-10 22:31:09,329 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\main\resources
+2025-02-10 22:31:09,336 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\test\resources

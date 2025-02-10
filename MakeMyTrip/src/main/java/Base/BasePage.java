@@ -39,7 +39,7 @@ public class BasePage {
 	}
 	
 	public static String TimeStamp() {
-		return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());
+		return new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
 	}
 
 }

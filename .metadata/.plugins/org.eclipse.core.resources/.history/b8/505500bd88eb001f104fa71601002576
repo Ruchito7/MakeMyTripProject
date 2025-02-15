@@ -1,0 +1,34 @@
+package Tests;
+
+import java.io.IOException;
+
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import Base.Hooks;
+import PageObject.FlightsSearchPageObj;
+import PageObject.TopNavPageObj;
+
+public class FlightSearchFunctionality extends Hooks {
+
+	public FlightSearchFunctionality() throws IOException {
+		super();
+	}
+	
+	
+	@Test
+	public void RoundTripFlightSearch() throws IOException, InterruptedException {
+		TopNavPageObj nav= new TopNavPageObj();
+		Assert.assertEquals(nav.getFlightsBtn().getDomAttribute("class").contains("active"),true);
+		FlightsSearchPageObj flight= new FlightsSearchPageObj();
+		flight.getRoundTripBtn().click();
+		Assert.assertEquals(true, flight.getRoundTripBtn().isSelected());
+		Thread.sleep(1000);
+		Select select = new Select(flight.getFromSection());
+		select.selectByVisibleText("Pune, India");
+		Thread.sleep(2000);
+	}
+	
+
+}

@@ -18,7 +18,10 @@ public class FlightsSearchPageObj extends BasePage{
 	By RoundTripBtn= By.cssSelector("[data-cy='roundTrip']");
 	By MultyCityBtn= By.cssSelector("[data-cy='mulitiCityTrip']");
 	By FromSection= By.cssSelector("[for='fromCity']");
-	By ToSection= By.cssSelector(".returnPersuasion div:nth-child(3)");
+	By FromDropDown= By.cssSelector("div#react-autowhatever-1");
+	By FromSearch= By.cssSelector("[role] [type]");
+	By FromFirstSugg= By.cssSelector("div#react-autowhatever-1  ul > li:nth-of-type(1)");
+	By ToSection= By.cssSelector("[for='toCity']");
 	By DepartureSection= By.cssSelector("[for='departure']");
 	By ReturnSection= By.cssSelector("[data-cy='returnArea'] label");
 	By ClassSection= By.cssSelector("[for='travellers']");
@@ -47,6 +50,21 @@ public class FlightsSearchPageObj extends BasePage{
 	
 	public WebElement getFromSection() {
 		return GetDriver().findElement(FromSection);
+		
+	}
+	
+	public WebElement getFromDropDown() {
+		return GetDriver().findElement(FromDropDown);
+		
+	}
+	
+	public WebElement getFromSearch() {
+		return GetDriver().findElement(FromSearch);
+		
+	}
+	
+	public WebElement getFromFirstSugg() {
+		return GetDriver().findElement(FromFirstSugg);
 		
 	}
 	

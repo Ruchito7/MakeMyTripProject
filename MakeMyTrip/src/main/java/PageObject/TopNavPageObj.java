@@ -13,9 +13,9 @@ public class TopNavPageObj extends BasePage{
 		super();
 		
 	}
-	
-	By CloseCross = By.cssSelector(".commonModal__close");
-	By FlightsBtn= By.cssSelector(".menu_Flights > span");
+	By LoginSection= By.cssSelector(".tcnFooter");
+	By CloseCross = By.xpath("/html//div[@id='SW']//section[@class='modalMain tcnFooter']/span[@class='commonModal__close']");
+	By FlightsBtn= By.cssSelector(".menu_Flights [href]");
 	By HotelsBtn= By.cssSelector(".menu_Hotels > span");
 	By HomeStayBtn= By.cssSelector(".menu_Homestays .headerIcons");
 	By HldyPkgBtn= By.cssSelector(".removeItemMargin .headerIcons");
@@ -25,6 +25,13 @@ public class TopNavPageObj extends BasePage{
 	By ForexCardBtn= By.cssSelector(".menu_Forex .headerIcons");
 	By InsuranceBtn= By.cssSelector(".menu_TravelInsurance .headerIcons");
 	
+	
+	
+	
+	public  WebElement getLoginSection() {
+		return GetDriver().findElement(LoginSection);
+		
+	}
 	
 	
 	public  WebElement getCloseCross() {

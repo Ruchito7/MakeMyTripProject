@@ -1,0 +1,19 @@
+package PageObject;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+
+import Base.BasePage;
+
+public class SearchSectionPageObj extends BasePage{
+
+	public SearchSectionPageObj() throws IOException {
+		super();
+		
+	}
+	
+	By CloseCross = By.cssSelector(".commonModal__close");
+	By 
+
+}

@@ -550,3 +550,22 @@
 2025-02-10 22:31:08,026 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.MakeMyTrip:MakeMyTrip:0.0.1-SNAPSHOT @ C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\pom.xml.
 2025-02-10 22:31:09,329 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\main\resources
 2025-02-10 22:31:09,336 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\test\resources
+2025-02-10 22:40:43,272 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\main\resources
+2025-02-10 22:40:43,273 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\test\resources
+2025-02-15 14:03:36,104 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-02-15 14:06:34,530 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2025-02-15 14:06:34,542 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2025-02-15 14:06:34,843 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/query/maven-metadata.xml
+2025-02-15 14:06:34,846 [Worker-31: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/query/maven-metadata.xml
+2025-02-15 14:08:31,148 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\main\resources
+2025-02-15 14:08:31,151 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\test\resources
+2025-02-15 14:14:01,377 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\main\resources
+2025-02-15 14:14:01,380 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\test\resources
+2025-02-15 14:20:23,237 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\main\resources
+2025-02-15 14:20:23,240 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\test\resources
+2025-02-15 14:26:08,809 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\main\resources
+2025-02-15 14:26:08,812 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\test\resources
+2025-02-15 14:26:39,164 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\main\resources
+2025-02-15 14:26:39,167 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\test\resources
+2025-02-15 14:41:32,513 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\main\resources
+2025-02-15 14:41:32,517 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ruchi\SSelenium\MMTProject\MakeMyTrip\src\test\resources

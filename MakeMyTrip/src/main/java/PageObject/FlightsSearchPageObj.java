@@ -22,8 +22,12 @@ public class FlightsSearchPageObj extends BasePage{
 	By FromSearch= By.cssSelector("[role] [type]");
 	By FromFirstSugg= By.cssSelector("div#react-autowhatever-1  ul > li:nth-of-type(1)");
 	By ToSection= By.cssSelector("[for='toCity']");
+	By ToSearch= By.cssSelector("[role] [type]");
+	By ToFirstSugg= By.cssSelector("div#react-autowhatever-1  ul > li:nth-of-type(1)");
 	By DepartureSection= By.cssSelector("[for='departure']");
+	By DepartureDate= By.cssSelector(".DayPicker.Range.Selectable > .DayPicker-wrapper");
 	By ReturnSection= By.cssSelector("[data-cy='returnArea'] label");
+	By ReturnDate= By.cssSelector(".calHeading.makeFlex > div:nth-of-type(3)");
 	By ClassSection= By.cssSelector("[for='travellers']");
 	By RegularTab= By.cssSelector(".hrtlCenter .fareCardItem:nth-of-type(1)");
 	By StudentTab= By.cssSelector(".hrtlCenter .fareCardItem:nth-of-type(2)");
@@ -72,14 +76,35 @@ public class FlightsSearchPageObj extends BasePage{
 		return GetDriver().findElement(ToSection);
 		
 	}
+
+	public WebElement getToSearch() {
+		return GetDriver().findElement(ToSearch);
+		
+	}
+	
+	public WebElement getToFirstSugg() {
+		return GetDriver().findElement(ToFirstSugg);
+		
+	}
+	
 	
 	public WebElement getDepartureSection() {
 		return GetDriver().findElement(DepartureSection);
 		
 	}
 	
+	public WebElement getDepartureDate() {
+		return GetDriver().findElement(DepartureDate);
+		
+	}
+	
 	public WebElement getReturnSection() {
 		return GetDriver().findElement(ReturnSection);
+		
+	}
+	
+	public WebElement getReturnDate() {
+		return GetDriver().findElement(ReturnDate);
 		
 	}
 	

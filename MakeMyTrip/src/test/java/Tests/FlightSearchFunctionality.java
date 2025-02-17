@@ -59,11 +59,39 @@ public class FlightSearchFunctionality extends Hooks {
 		GetDriver().findElement(By.xpath("//div[contains(@aria-label, '" + ReturnDay + "')]")).click();
 		
 		Thread.sleep(2000);
+		flight.getClassSection().click();
+		Thread.sleep(1000);
+		TravellerSelect(2,1,1);
+		Thread.sleep(1000);
+		flight.getApplyBtn().click();
+		Thread.sleep(1000);
 		
 		flight.getSearchBtn().click();
 		Thread.sleep(2000);
 		Assert.assertEquals(GetDriver().getCurrentUrl().contains("https://www.makemytrip.com/flight/search?itinerary"), true);
 	}
+
+
+	private void TravellerSelect(int Adults, int Children, int Infants) throws InterruptedException {
+		
+		if(Adults>0) {
+		GetDriver().findElement(By.cssSelector("[data-cy='adults-"+Adults+"']")).click();
+		Thread.sleep(2000);
+		}
+		
+		
+			GetDriver().findElement(By.cssSelector("[data-cy='children-"+Children+"']")).click();
+			Thread.sleep(2000);
+			
+			GetDriver().findElement(By.cssSelector("[data-cy='infants-"+Infants+"']")).click();
+			Thread.sleep(2000);
+			
+		
+	}
+
+
+	
+	
 	
 
 }

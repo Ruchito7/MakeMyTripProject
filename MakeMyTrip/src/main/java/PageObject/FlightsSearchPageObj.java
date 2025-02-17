@@ -29,6 +29,7 @@ public class FlightsSearchPageObj extends BasePage{
 	By ReturnSection= By.cssSelector("[data-cy='returnArea'] label");
 	By ReturnDate= By.cssSelector(".calHeading.makeFlex > div:nth-of-type(3)");
 	By ClassSection= By.cssSelector("[for='travellers']");
+	By ApplyBtn= By.cssSelector(".primaryBtn.pushRight");
 	By RegularTab= By.cssSelector(".hrtlCenter .fareCardItem:nth-of-type(1)");
 	By StudentTab= By.cssSelector(".hrtlCenter .fareCardItem:nth-of-type(2)");
 	By SiniorCitizenTab= By.cssSelector(".hrtlCenter .fareCardItem:nth-of-type(3)");
@@ -110,6 +111,11 @@ public class FlightsSearchPageObj extends BasePage{
 	
 	public WebElement getClassSection() {
 		return GetDriver().findElement(ClassSection);
+		
+	}
+	
+	public WebElement getApplyBtn() {
+		return GetDriver().findElement(ApplyBtn);
 		
 	}
 	
